@@ -9,14 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="logo-icon.svg">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <a href="#" class="logo">
-                <span class="logo-icon">🌸</span>
-                <span class="logo-text">Gaia PMA</span>
+                <svg class="logo-flower" width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="60" cy="30" r="18" fill="#F8A5B8"/>
+                    <circle cx="85" cy="46" r="18" fill="#F9B7C5"/>
+                    <circle cx="75" cy="78" r="18" fill="#FAC9D2"/>
+                    <circle cx="45" cy="78" r="18" fill="#FAC9D2"/>
+                    <circle cx="35" cy="46" r="18" fill="#F9B7C5"/>
+                    <circle cx="60" cy="55" r="12" fill="#FFD93D"/>
+                </svg>
+                <span class="logo-text">Gaia <span class="logo-pma">PMA</span></span>
             </a>
             <ul class="nav-links">
                 <li><a href="#features">Fonctionnalités</a></li>
@@ -38,16 +46,60 @@
             <div class="shape shape-1"></div>
             <div class="shape shape-2"></div>
             <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <!-- Decorative mini flowers -->
+        <div class="hero-flowers">
+            <svg class="mini-flower mini-flower-1" width="40" height="40" viewBox="0 0 120 120" fill="none">
+                <circle cx="60" cy="30" r="15" fill="#F8A5B8" opacity="0.6"/>
+                <circle cx="82" cy="48" r="15" fill="#F9B7C5" opacity="0.5"/>
+                <circle cx="73" cy="78" r="15" fill="#FAC9D2" opacity="0.4"/>
+                <circle cx="47" cy="78" r="15" fill="#FAC9D2" opacity="0.4"/>
+                <circle cx="38" cy="48" r="15" fill="#F9B7C5" opacity="0.5"/>
+                <circle cx="60" cy="55" r="10" fill="#FFD93D" opacity="0.7"/>
+            </svg>
+            <svg class="mini-flower mini-flower-2" width="30" height="30" viewBox="0 0 120 120" fill="none">
+                <circle cx="60" cy="30" r="15" fill="#F8A5B8" opacity="0.5"/>
+                <circle cx="82" cy="48" r="15" fill="#F9B7C5" opacity="0.4"/>
+                <circle cx="73" cy="78" r="15" fill="#FAC9D2" opacity="0.3"/>
+                <circle cx="47" cy="78" r="15" fill="#FAC9D2" opacity="0.3"/>
+                <circle cx="38" cy="48" r="15" fill="#F9B7C5" opacity="0.4"/>
+                <circle cx="60" cy="55" r="10" fill="#FFD93D" opacity="0.6"/>
+            </svg>
+            <svg class="mini-flower mini-flower-3" width="35" height="35" viewBox="0 0 120 120" fill="none">
+                <circle cx="60" cy="30" r="15" fill="#F8A5B8" opacity="0.5"/>
+                <circle cx="82" cy="48" r="15" fill="#F9B7C5" opacity="0.4"/>
+                <circle cx="73" cy="78" r="15" fill="#FAC9D2" opacity="0.3"/>
+                <circle cx="47" cy="78" r="15" fill="#FAC9D2" opacity="0.3"/>
+                <circle cx="38" cy="48" r="15" fill="#F9B7C5" opacity="0.4"/>
+                <circle cx="60" cy="55" r="10" fill="#FFD93D" opacity="0.6"/>
+            </svg>
+            <svg class="mini-flower mini-flower-4" width="25" height="25" viewBox="0 0 120 120" fill="none">
+                <circle cx="60" cy="30" r="15" fill="#F8A5B8" opacity="0.6"/>
+                <circle cx="82" cy="48" r="15" fill="#F9B7C5" opacity="0.5"/>
+                <circle cx="73" cy="78" r="15" fill="#FAC9D2" opacity="0.4"/>
+                <circle cx="47" cy="78" r="15" fill="#FAC9D2" opacity="0.4"/>
+                <circle cx="38" cy="48" r="15" fill="#F9B7C5" opacity="0.5"/>
+                <circle cx="60" cy="55" r="10" fill="#FFD93D" opacity="0.7"/>
+            </svg>
         </div>
         <div class="container">
             <div class="hero-content">
+                <div class="hero-badge fade-in">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    Application bientôt disponible
+                </div>
                 <h1 class="hero-title fade-in">
-                    Votre alliée bienveillante<br>
-                    <span class="highlight">à chaque étape</span> de votre parcours PMA
+                    Vous n'êtes <span class="highlight">plus seule</span><br>
+                    dans votre parcours <span class="highlight-warm">PMA</span>
                 </h1>
                 <p class="hero-subtitle fade-in">
-                    Gaia PMA vous accompagne avec douceur dans votre parcours de procréation médicalement assistée.
-                    Suivi médical, rappels, communauté et ressources : tout ce dont vous avez besoin, dans une seule application.
+                    <strong>Gaia PMA</strong> vous accompagne avec douceur à chaque étape.
+                    Suivi médical personnalisé, rappels de traitements, communauté bienveillante
+                    et ressources validées par des experts. <strong>Tout ce dont vous avez besoin,
+                    réuni dans une seule application.</strong>
                 </p>
                 <div class="hero-buttons fade-in">
                     <a href="#" class="store-btn">
@@ -69,24 +121,40 @@
                         </div>
                     </a>
                 </div>
+                <div class="hero-trust fade-in">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                    </svg>
+                    <span>100% confidentiel</span> · Données sécurisées · Conçu avec des professionnels de santé
+                </div>
             </div>
             <div class="hero-visual fade-in">
                 <div class="phone-mockup">
                     <div class="phone-screen">
                         <div class="app-preview">
                             <div class="app-header">
-                                <span class="app-greeting">Bonjour, Sarah</span>
-                                <span class="app-date">Jour 14 de votre cycle</span>
+                                <div class="app-logo-mini">
+                                    <svg width="32" height="32" viewBox="0 0 120 120" fill="none">
+                                        <circle cx="60" cy="30" r="16" fill="#F8A5B8"/>
+                                        <circle cx="84" cy="46" r="16" fill="#F9B7C5"/>
+                                        <circle cx="74" cy="76" r="16" fill="#FAC9D2"/>
+                                        <circle cx="46" cy="76" r="16" fill="#FAC9D2"/>
+                                        <circle cx="36" cy="46" r="16" fill="#F9B7C5"/>
+                                        <circle cx="60" cy="54" r="11" fill="#FFD93D"/>
+                                    </svg>
+                                </div>
+                                <span class="app-greeting">Bonjour Sarah</span>
+                                <span class="app-date">Jour 14 · Stimulation</span>
                             </div>
                             <div class="app-card">
                                 <span class="card-icon">📅</span>
-                                <span class="card-text">Prochain RDV: Dr. Martin</span>
-                                <span class="card-date">Demain, 10h30</span>
+                                <span class="card-text">RDV Dr. Martin</span>
+                                <span class="card-date">Demain 10h30</span>
                             </div>
                             <div class="app-card">
                                 <span class="card-icon">💊</span>
-                                <span class="card-text">Rappel traitement</span>
-                                <span class="card-date">Dans 2 heures</span>
+                                <span class="card-text">Gonal-F 150UI</span>
+                                <span class="card-date">Dans 2h</span>
                             </div>
                             <div class="app-card community">
                                 <span class="card-icon">💬</span>
@@ -395,8 +463,15 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <span class="logo-icon">🌸</span>
-                        <span class="logo-text">Gaia PMA</span>
+                        <svg class="logo-flower" width="40" height="40" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="60" cy="30" r="18" fill="#F8A5B8"/>
+                            <circle cx="85" cy="46" r="18" fill="#F9B7C5"/>
+                            <circle cx="75" cy="78" r="18" fill="#FAC9D2"/>
+                            <circle cx="45" cy="78" r="18" fill="#FAC9D2"/>
+                            <circle cx="35" cy="46" r="18" fill="#F9B7C5"/>
+                            <circle cx="60" cy="55" r="12" fill="#FFD93D"/>
+                        </svg>
+                        <span class="logo-text">Gaia <span class="logo-pma">PMA</span></span>
                     </a>
                     <p class="footer-tagline">Votre alliée bienveillante dans votre parcours PMA</p>
                 </div>

@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Pétales -->
+    <circle cx="60" cy="30" r="22" fill="#F8A5B8"/>
+    <circle cx="88" cy="48" r="22" fill="#F9B7C5"/>
+    <circle cx="78" cy="82" r="22" fill="#FAC9D2"/>
+    <circle cx="42" cy="82" r="22" fill="#FAC9D2"/>
+    <circle cx="32" cy="48" r="22" fill="#F9B7C5"/>
+    <!-- Coeur -->
+    <circle cx="60" cy="58" r="14" fill="#FFD93D"/>
+</svg>

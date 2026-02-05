@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background gradient -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#F8A5B8"/>
+            <stop offset="100%" style="stop-color:#E07A9E"/>
+        </linearGradient>
+    </defs>
+    <rect width="512" height="512" rx="96" fill="url(#bgGradient)"/>
+    <!-- Fleur centrée -->
+    <circle cx="256" cy="180" r="70" fill="white"/>
+    <circle cx="345" cy="235" r="70" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="315" cy="340" r="70" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="197" cy="340" r="70" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="167" cy="235" r="70" fill="rgba(255,255,255,0.8)"/>
+    <!-- Coeur -->
+    <circle cx="256" cy="270" r="45" fill="#FFD93D"/>
+</svg>
